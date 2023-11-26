@@ -39,7 +39,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.fill(BG)  # Fill the screen with white
+    screen.fill(BG)  # Fill the screen with white 
     theta = 0
     for i in range(12):
         pos = (WIDTH//2 + int(200*math.cos(theta)), HEIGHT//2 + int(200*math.sin(theta)))
